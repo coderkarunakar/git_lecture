@@ -1,0 +1,197 @@
+                                GIT AND GIT HUB:
+basically we have 4 parts i.e 
+part 1:
+-->Vcs   GIT Repo
+part 2:
+-->Stagging area  Commits
+part 3:
+-->Working with branches
+part 4:
+-->Issues  Pull Requests
+
+
+
+
+Basics:
+Note:Git  Git hub both are different
+-->git is an version controll system(Vcs)
+Example :let us say we have a website called leetcode in  that we can see that new version
+  there only we can see that old version is also available if u want just press revert to 
+ old version with that u can use the old version this is because if the user experience is 
+ not good with the given new version like any issues or any bugs are found u can simply use the 
+ old version this is happening just because of the version controlling only (with this we can 
+ go back to 1.12 to 1.11 version (example only)) for this we need to 
+ 1. save our project first 
+ 2.make changes on version
+
+ -->in version controlls we have a lot of systems but git is very famous to store our data
+ for version controlling   we can make changes on version system...
+
+
+
+.Go to chrome  search the git install 
+.after installing git (just simply presss next,next...)
+.after installing simply type git in command prompt
+
+
+Git concepts:
+1.Remote Repository  (repo means our project folder)
+
+
+
+
+
+
+Git Hub :
+
+1.Remote Repository:
+
+it is a one example of remote Repository hosting service 
+(ikkada project folders ni store cheskovachu)
+hosting services exaples are amazon aws ,gitlab,bitbucket,microsoft azure devops  github
+
+github is so famous the reason because is it is free (we can store our project folders
+ in n numbers) and the rest are paid so they are only used in companies..
+ here we are using remote repo as our git hub
+
+2.Local Repository:
+
+local repo means nothing but the project folder which is in our laptop it is called as local
+
+-->here we will be using the command is git push
+
+3.Stagging Area:
+Note:the area between local and working Directory is known as stagging area and
+it is very important area,
+-->with this stagging area we can send how many files we want only that many (a fixed no of file)
+-->here we will be using command is git  commit
+
+
+
+4.Working Directory:
+currently working folder is known as working Directory
+-->here we will be using command is git add
+
+Note:if u create a folder and if u open it and at the path place simply erase everything and
+and if u type cmd it will automatically opens the cmd terminal
+
+
+1.git init:means we are initialising this folder as git  repo
+
+2.git status: this will show all the files in the current folder 
+
+Note:Untracked files are known as working Directory (this means still no git commands
+are applied)
+
+
+Note:when ever u want to send the files into remote repo first it should be saved in 
+our local repo (i.e our laptop)
+
+
+
+
+
+1.git init
+2.git status (in this stage we can see Untracked files)
+
+3.git add file name (after adding a file we can check git status there it will not show in 
+untracked files)
+4.git commit -m ""   (here we can give some message in the git commit) (after this we cant
+see what are the files we have added in the git add (by using git status and we can see only the
+untracked files )
+
+
+5.git remote add origin (our repo link)
+6.git push -u  origin master (Note:usign git branch we can check currently we are in which branch)
+Note:the default branch is master
+
+
+Note:after all this 6 steps finally we can view it in our github in our repo with given commit
+
+
+
+(VVV.IMP NOTE:WHAT EVER U ADD IN THE GIT ADD FILE NAME ONLY THAT GETS ADDED IN OUR REPO FINALLY )
+ AND IF U WANT TO ADD ALL THE FILES SIMPLY U CAN GIVE (git add .) here this dot means add all the 
+files..
+
+
+
+
+
+
+.gitignore files means it will ignore all the files what ever u write in
+ this file (ex:nodemodules)
+
+
+                GIT HUB REPO MYNE :
+//in github go and create a new repo with some name and if u want give some description
+and copy the htttp link
+
+in github we can see readme file (this means what actually our project is )
+
+
+
+
+
+//BRANCHES:
+Note:a repo can have a lot of branches in that branches main/master is also a branch
+with this only we can deploy our code   
+
+
+//CREATING BRANCHES:
+using git checkout we can jump from one branch to another branch
+-->git checkout branchname
+for creating a branch
+-->git checkout -b "branch name"
+for checking in which branch we are currently in is
+-->git branch
+
+now for commiting use
+-->git commit -m "commit name"
+
+now for pushing use:
+-->git push --set-upstream origin branch name
+
+
+after all this we can view the branch name in our repo at branch
+
+
+NOte:in our new created branch we can view both now comited file 
+and as well previously commited file
+but in the master i.e previous one we can see only what we have commited previously 
+
+but if u want to merge both the files in master just simply press compare and pull req 
+buttton which is appearing above 
+..>in that simply give a comment
+
+after that 
+-->merge pull req
+after that 
+-->confirm merge
+
+
+
+
+//CONCEPT
+
+
+if u want to make some  changes in some one project and want to create a branch
+in that case we have an option called as fork at there repo ,
+if u click fork the copy of that repo will be at our git repo
+
+if u want that into ur local (i.e local) just at that place go to code
+and copy https link there
+
+create a new folder in desktop open with vs code or command prompt
+ 
+ type:
+  git clone  http link 
+
+make some changes
+  in this same process first push into my rep first 
+  if u think the changes are good then u can raise the pull req in their git hub account at
+  that specific project if they like it they will accept it
+  
+
+
+
